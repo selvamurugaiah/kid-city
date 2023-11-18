@@ -23,6 +23,7 @@ const EditProduct = lazy(() => import("./pages/EditProduct.js"));
 const ViewOrder = lazy(() => import("./pages/ViewOrder.js"));
 const NotFound = lazy(() => import("./pages/404/NotFound.js"));
 
+//App component
 function App() {
 
   const { user } = useSelector((state) => state.user);
