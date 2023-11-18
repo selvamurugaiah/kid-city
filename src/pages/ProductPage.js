@@ -18,6 +18,7 @@ import axios from "../api";
 import { toast } from "react-toastify";
 import { updateUser } from "../redux/actions/userAction";
 
+//product page
 const ProductPage = () => {
   const { id } = useParams();
   const { user } = useSelector((state) => state.user);

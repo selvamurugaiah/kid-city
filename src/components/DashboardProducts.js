@@ -8,6 +8,7 @@ import "../styles/DashboardProducts.css";
 import axios from "../api";
 import { toast } from "react-toastify";
 
+//products
 const DashboardProducts = () => {
   const { products } = useSelector((state) => state.products);
   const { user } = useSelector((state) => state.user);

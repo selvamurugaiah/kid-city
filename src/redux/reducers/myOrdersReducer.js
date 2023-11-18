@@ -3,6 +3,7 @@ const initialState = {
   loading: false,
 };
 
+//reducer for myorders
 export const myOrdersReducer = (state = initialState, action) => {
   switch (action.type) {
     case "GET_MY_ORDERS_REQUEST":

@@ -7,6 +7,7 @@ import { getAllProducts } from "../redux/actions/productAction";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
+//new product
 const AddProduct = () => {
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");

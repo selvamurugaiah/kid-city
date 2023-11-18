@@ -1,3 +1,5 @@
+
+//images
 const categories = [
   {
     name: "Toys",

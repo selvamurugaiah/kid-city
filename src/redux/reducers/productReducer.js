@@ -3,6 +3,7 @@ const initialState = {
   loading: false,
 };
 
+//reducer for product
 export const productReducer = (state = initialState, action) => {
   switch (action.type) {
     case "GET_PRODUCT_REQUEST":

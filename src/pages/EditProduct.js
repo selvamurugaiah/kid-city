@@ -8,6 +8,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import Loading from "../components/Loading";
 import { toast } from "react-toastify";
 
+//Edit Product
 const EditProduct = () => {
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");

@@ -3,6 +3,7 @@ const initialState = {
   loading: false,
 };
 
+//reducer for order view
 export const viewOrderReducer = (state = initialState, action) => {
   switch (action.type) {
     case "GET_ORDER_REQUEST":

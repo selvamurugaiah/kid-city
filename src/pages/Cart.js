@@ -8,6 +8,7 @@ import { updateUser } from "../redux/actions/userAction";
 
 import CheckoutForm from "../components/CheckoutForm";
 
+//card
 const Cart = () => {
   const { user } = useSelector((state) => state.user);
   const dispatch = useDispatch();

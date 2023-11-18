@@ -12,6 +12,7 @@ import { useDispatch } from "react-redux";
 import Loading from "../components/Loading";
 import { updateUser } from "../redux/actions/userAction";
 
+//Home page
 const Home = () => {
   const dispatch = useDispatch();
   const { user } = useSelector((state) => state.user);

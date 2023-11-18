@@ -1,6 +1,7 @@
 import React from "react";
 import "./NotFound.css";
 
+//not found page
 const NotFound = () => {
   return (
     <div className="bg-gray-100 h-screen justify-center">

@@ -1,5 +1,6 @@
 import axios from "../../api";
 
+//reduc for product
 export const getAllProducts = () => async (dispatch) => {
   try {
     dispatch({ type: "GET_PRODUCTS_REQUEST" });

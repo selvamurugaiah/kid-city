@@ -6,6 +6,7 @@ import Loading from "../components/Loading";
 import ProductPreview from "../components/ProductPreview";
 import { getProductsByCategory } from "../redux/actions/productAction";
 
+// All product
 const AllProductPage = () => {
   const { category } = useParams();
   const dispatch = useDispatch();

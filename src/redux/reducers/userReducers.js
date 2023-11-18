@@ -5,6 +5,7 @@ const initialState = {
   loading: false,
   notifications: [],
 };
+// reducer for users
 
 export const userReducer = (state = initialState, action) => {
   switch (action.type) {

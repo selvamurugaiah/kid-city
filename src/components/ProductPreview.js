@@ -2,6 +2,7 @@ import React from "react";
 import { Badge, Card } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 
+//product p0review
 const ProductPreview = ({ product }) => {
   return (
     <LinkContainer

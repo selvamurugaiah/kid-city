@@ -5,6 +5,8 @@ import "../styles/LoginForm.css";
 import { useDispatch, useSelector } from "react-redux";
 import { LoginUser } from "../redux/actions/userAction";
 
+
+//login page
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

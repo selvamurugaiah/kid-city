@@ -1,5 +1,6 @@
 import axios from "../../api";
 
+//redux for order
 export const placeOrder = (data) => async (dispatch) => {
   try {
     dispatch({ type: "PLACE_ORDER_REQUEST" });

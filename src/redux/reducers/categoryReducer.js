@@ -3,6 +3,7 @@ const initialState = {
   loading: false,
 };
 
+//reducer category
 export const categoryReducer = (state = initialState, action) => {
   switch (action.type) {
     case "PRODUCT_CATEGORY_REQUEST":

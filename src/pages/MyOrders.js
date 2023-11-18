@@ -5,6 +5,7 @@ import axios from "../api";
 import Loading from "../components/Loading";
 import { getMyOrders } from "../redux/actions/orderAction";
 
+//order page
 const MyOrders = () => {
   const { user } = useSelector((state) => state.user);
   const dispatch = useDispatch();

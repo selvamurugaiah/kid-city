@@ -6,6 +6,7 @@ import { categoryReducer } from "./categoryReducer";
 import { myOrdersReducer } from "./myOrdersReducer";
 import { viewOrderReducer } from "./viewOrderReducer";
 
+//reducer store
 export default combineReducers({
   user: userReducer,
   products: productsReducer,

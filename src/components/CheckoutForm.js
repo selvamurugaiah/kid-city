@@ -11,6 +11,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import { placeOrder } from "../redux/actions/orderAction";
 import { updateUser } from "../redux/actions/userAction";
 
+//form
 const CheckoutForm = ({ totalPrice }) => {
   const { user } = useSelector((state) => state.user);
   const dispatch = useDispatch();

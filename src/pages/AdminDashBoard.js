@@ -3,6 +3,7 @@ import { Container, Nav, Tab, Col, Row } from "react-bootstrap";
 import DashboardOrders from "../components/DashboardOrders";
 import DashboardProducts from "../components/DashboardProducts";
 
+// Admin Dasboard
 const AdminDashboard = () => {
   return (
     <Container fluid>

@@ -5,6 +5,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import Loading from "../components/Loading";
 import { getOrderById } from "../redux/actions/orderAction";
 
+//view order
 const ViewOrder = () => {
   const { id } = useParams();
   const dispatch = useDispatch();
